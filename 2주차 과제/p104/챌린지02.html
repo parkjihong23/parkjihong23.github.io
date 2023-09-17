@@ -1,1 +1,126 @@
-2주차 과제/p107
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 { text-align : left ; color : green; background-color:darkgray; }
+    h2 { background-color: gray;}
+</style>
+<body>
+    <h1>CPU란...</h1>
+    CPU는 Central Processing Unit 의 약자로서,직역 하면 중앙처리장치이다.<br>
+        단어 그대로, 컴퓨터의 정중앙에서 모든 데이터를 처리하는 장치라는 뜻이다.<br>
+        CPU는 컴퓨터의 두뇌에 해당하는 것으로서, 사용자로부터 입력 받은 명령어를 해석, 연산한 후<br>
+        그 결과를 출력하는 역할을 한다. 그리고 이렇게 하나의 부품에 연산 장치, 해독 장치, 제어 장치 등이<br>
+        집적되어 있는 형태를 일컬어 마이크로프로세서라고 한다. <br>
+        CPU와 마이크로프로세서는 거의 같은 의미로 쓰이는 일이 많다. 다만 마이크로프로세서 중에는<br>
+        전기밥솥이나 세탁기와 같은 제품의 제어용으로 쓰이는 것도 있어, 일반적인 컴퓨터에 장착되는<br>
+        CPU와는 미묘하게 의미가 구분된다. <br><br>
+
+    컴퓨터 CPU의 가장 기본적인 역할은 연산/계산 작업이다. 이를테면 사용자가 0 + 1이라는 명령을 내리면<br>
+    CPU는 이를 받아들여 계산을 한 후 1이라는 결과를 영상 출력 장치로 보여준다. 물론, 지금 우리가<br>
+    사용하는 컴퓨터의 CPU는 이러한 단순한 계산 작업만 처리하지는 않으며, 문서나 그림, 음악이나 동영상 처리 등<br>
+    다양한 데이터를 취급한다. 하지만 처리하는 데이터의 종류가 다르다 해도 CPU가 데이터를 처리하는 기본 원리는<br>
+    0 + 1 = 1을 계산할 때와 크게 다르지 않다.<br>
+    <pre>
+        출저: <a href="https://terms.naver.com/entry.naver?docId=3570778&cid=59088&categoryId=59096">[네이버 지식백과]</a>
+    </pre>
+    <audio src = "웹프챌린지02음성파일.mp3" controls loop>
+        웹페이지 설명 음성 파일
+    </audio>
+    <hr>
+<!--목차 만들기-->
+    <h2>목차</h2>
+    <ul>
+        <li><a href="#cpuHistory">cpu의 역사 </a></li>
+        <li><a href="#cpuOperation">cpu의 작동</a></li>
+        <li><a href="#cpuMaker">cpu제조사들 </a></li>
+    </ul>
+<!--cpu의 역사-->
+    <hr>
+    <h3 id="cpuHistroy"><a href="https://blog.naver.com/mdsrpro/223005744351" target="_blank">cpu의 역사</a></h3>
+        <ul>
+        <li>1940년대: 컴퓨터의 초창기에서는 CPU를 구성하는 회로들이 수많은 나사와 회로 보드로 구성되어 있었습니다.
+        이때 CPU의 크기는 전자적 장치들이 들어갈 수 있는 방의 크기와 같았습니다.</li>
+        <li>1950년대: 컴퓨터의 개발이 진행됨에 따라 CPU에 탑재된 회로의 수가 증가하였습니다.이로 인해 CPU의 크기가 커지고,
+         개발 비용이 높아졌습니다.</li>
+        <li>1960년대: CPU에 탑재된 회로의 수를 줄이기 위해 반도체 기술이 개발되었습니다.이를 통해 CPU의 크기가 줄어들고,
+         개발 비용이 감소하였습니다.</li>
+        <li>1970년대: 이제 CPU는 반도체 칩으로 구성되어 크기가 매우 작아졌습니다.
+        또한 CPU의 속도가 급격히 증가하여 컴퓨터의 작업 처리 속도도 높아졌습니다.</li>
+        <li>1980년대: 1981년 IBM PC의 등장으로 x86 아키텍처가 개인용 컴퓨팅의 주요 플랫폼으로 자리매김할 수 있게 되었습니다.
+        인텔은 80286 및 80386 프로세서를 출시하여 퍼포먼스가 향상되고 메모리 주소 지정성이 향상되었습니다.1989년에 80486이 출시되면서
+         x86 플랫폼에 온칩 캐싱 및 부동소수점 처리 등의 기능이 향상되었습니다.</li>
+        <li>1990년대: 인텔은 PC의 주요 CPU가 되는 Pentium 프로세서 라인을 도입했습니다. Pentium 프로세서는 클럭 속도가 
+        60~66MHz이며 인텔의 5세대 x86 마이크로아키텍처를 사용하여 제작되었습니다.</li>
+        <li>2000년대: 인텔은 Pentium 제품군을 지속적으로 개선하여 대용량 캐시와 고급 명령 세트를 갖춘 보다 빠르고 효율적인
+         버전을 출시하고 있습니다.AMD는 Athlon 프로세서 라인을 출시하여 Pentium과 시장 점유율을 놓고 경쟁합니다.
+         양사는 듀얼 코어 프로세서의 생산을 개시하고, 멀티 스레드 애플리케이션의 멀티태스킹 향상과 퍼포먼스 향상을 실현합니다.</li>
+        <li>2010년대: 인텔은 새로운 마이크로아키텍처를 기반으로 퍼포먼스와 에너지 효율 향상을 실현하는 코어 프로세서 라인을 출시합니다.
+        인텔과 AMD는 모두 쿼드코어 및 상위 코어 프로세서의 생산을 개시하고 있습니다.이러한 프로세서는 요구가 까다로운 
+        어플리케이션에서 더욱 뛰어난 성능을 발휘합니다.모바일 컴퓨팅에 대한 추세가 가속화되면서 퀄컴의 SnapDragon이나 Apple의 
+        A 시리즈와 같은 모바일 프로세서의 중요성이 더욱 커지고 있습니다.</li>
+        <li>2020년대: 인텔과 AMD는 새로운 프로세서를 계속 출시하여 클럭 속도와 코어 수가 새로운 수준에 도달하고 있습니다.또, 양사는,
+         그래픽 처리나 머신 러닝등의 태스크에 적용된 코어를 탑재한 프로세서의 생산을 개시하고 있습니다.인공지능과 사물 인터넷으로의
+          추세는 새롭고 더 전문화된 프로세서의 개발을 촉진합니다.</li>
+        </ul>
+    [출처] CPU의 역할과 역사 총정리|작성자 MDSRRPO
+    <hr>
+<!--cpu작동방식-->
+    <hr>
+    <h3 id="cpuOperation"><a href="https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98" target="_blank">cpu의 작동</a></h3>
+    <table border ="1">
+        <caption>&#60;cpu 동작 순서&#62;</caption>
+        <tr>
+            <td><h5>인출&#45;&#45;&#45;&#45;&#62;</h5></td>
+            <td><h5>해독&#45;&#45;&#45;&#45;&#62;</h5></td>
+            <td><h5>실행&#45;&#45;&#45;&#45;&#62;</h5></td>
+            <td><h5>메모리&#45;&#45;&#45;&#45;&#62;</h5></td>
+            <td><h5>라이트백&#45;&#45;&#45;&#45;&#62;</h5></td>
+        
+        </tr>
+        <tr>
+            <td><pre>프로그램의<br>메모리에서 <br>명령어를 불러<br>오는 역활</pre></td>
+            <td><pre>인출 단계의<br>명령어를 해독<br>하여 데이터,연산<br>정보를 추출,<br>중앙처리 장치내의<br>각 장치에 적절한<br>제어신호를 보내<br>연산, 처리에 대한<br. 준비를 하는 단계</pre></td>
+            <td><pre>추출한 두 데이터<br>와 연산 정보를<br>이용해 실제로<br>연산하는 단계<br>결과는 바로<br>다음 명령어 사용또는<br>메모리 단계또는<br>라이트백 단계<br>결정</pre></td>
+            <td><pre>연산 결과가<br>명령어에 바로 사용<br>되지 않는 다면<br>메모리에 저장</pre></td>
+            <td><pre>이전 명령어의 연산<br>결과가 다음 명령어의<br>입력으로 사용될 경우<br>계산 결과를 다시<br>레지스터에 쓰는것</pre></td>
+        </tr>
+    </table>
+
+    <hr>
+<!--cpu 메이커-->
+    <hr>
+    <h3 id="cpuMaker"><a href="https://goodnews7942.tistory.com/entry/CPU%EC%99%80-AP%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%99%80-CPU-AP-%EA%B4%80%EB%A0%A8-%ED%9A%8C%EC%82%AC" target="_blank">cpu제조사들</a></h3>
+        cpu 제조사엔 대표적으로 인텔&#40;intel&#41;과 암드&#40;amd&#41;가 있습니다.<br>
+        cpu시장은 과거 인텔이 앞도적으로 우위를 차지했었으나 현재 암드가 유의미하게 따라<br>
+        잡았다고 볼 수 있습니다. 하지만 아직까지 서버 cpu 시장은 인텔이 훨씬 시장권을<br>
+        가지고 있어 점점 격차를 좁혀 소비자에게 득이되는 경쟁 체제가 만들어지는게 제 바램입니다. <br>
+        또한 cpu종류에 파생된 AP라는 cpu,gpu,메모리 컨트롤러,주변 장치 인터 페이스등이<br>
+        통합된 soc가 있습니다. AP를 만드는 제조사엔 제가 쓰는 노트10에 들어간 AP를 만든 퀄컴<br>
+        여러분이 좋아하시는 애플, 그리고 현재 삼성이 AP를 개발하고 삼성폰에 도입하고 있습니다. 
+    <hr>
+    <table>
+        <caption>cpu제조사 브랜드</caption>
+        <tr>
+            <td> <img src = "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5242%2F2020%2F02%2F24%2F2020022403772_0_20200224231029356.png&type=a340"width="100", height="100"></img> </td>
+            <td> <img src = "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA2MjNfMTYz%2FMDAxNTkyOTE4NTQ0Mzcx.CRCQgOL_P6DAUu6odMZF31IIoPHCnBbFGIED0Fqmg2og.kUEpuKhmpqZ26qgoyLYlGzD0Xuhly4JZS
+fuV35lLIKIg.PNG.wwwwowow%2F20200623_222218.PNG&type=l340_165"width="100", height="100"></img> </td>
+            <td> <img src = "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20130621_295%2Fjjy0501_1371823406652rpX5f_JPEG%2Fqualcomm-snapdragon-800.jpg&type=a340"width="100", height="100"></img> </td>
+            <td> <img src = "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20130503_42%2Fmissmrk_1367566787967PvIF4_JPEG%2F2013-05-03_16%253B31%253B14.jpg&type=a340"width="100", height="100"></img> </td>
+            <td> <img src = "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5093%2F2016%2F09%2F06%2Fnews_1473120619_849349_main1_99_20160906100122.jpg&type=a340" width="100", height="100"> </img> </td>
+            
+        </tr>
+    </table>
+    이만 글 읽어 주셔서 감사합니다.
+    
+
+
+
+
+    
+</body>
+</html>
