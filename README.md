@@ -3,6 +3,8 @@
   * p104
   ![스크린샷(4)](https://github.com/parkjihong23/parkjihong23.github.io/assets/144294724/eba720b1-e9b4-49da-adb4-c35b8f13e09d)
 
+  ![스크린샷(5)](https://github.com/parkjihong23/parkjihong23.github.io/assets/144294724/783543f7-9c19-4b02-9933-de05dccb6e38)
+
     * parkjihong23.github.io/2주차과제/p104/challenge02.html
       
          
