@@ -1,7 +1,7 @@
 # parkjihong23.github.io
 * 과제 주소
   * p104
-    * [주소](parkjihong23.github.io/2주차과제/p104/challenge02.html)
+    * [parkjihong23.github.io/2주차과제/p104/challenge02.html](parkjihong23.github.io/2주차과제/p104/challenge02.html)
       
   * p107
     * parkjihong23.github.io/2주차과제/p107/실습문제1.html
