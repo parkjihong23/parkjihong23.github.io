@@ -12,8 +12,10 @@
     * parkjihong23.github.io/2주차과제/p108/실습문제3.html
     * parkjihong23.github.io/2주차과제/p108/실습문제4.html
   * p109
-    * parkjihong23.github.io/2주차과제/p104/challenge02.html
+    * parkjihong23.github.io/2주차과제/p109/실습문제5.html
+    * parkjihong23.github.io/2주차과제/p109/실습문제6.html
   * p110
-    *p arkjihong23.github.io/2주차과제/p104/challenge02.html
+    * parkjihong23.github.io/2주차과제/p110/실습문제7.html
+    * parkjihong23.github.io/2주차과제/p110/실습문제8.html
     
   
