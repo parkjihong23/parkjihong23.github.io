@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박지홍의 이력서</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        @keyframes move1 {
+            0%{margin-left: 100%;}
+
+            100%{margin-left: 0%;}
+        }
+
+      
+        .section1  { 
+            animation-name: move1;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            
+        }
+
+        span {
+            transition: font-size 5s;
+            
+        }
+
+        span:active {
+            font-size:500%;
+        }
+
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            animation-name: move1;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            
+        }
+
+        .imagePace{
+            float : left;
+            margin:10px 10px 10px 10px;/*모서리에서 10px 떨어지게*/
+            padding: 5px; /*패딩 설정 */
+            border: 1px solid yellowgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>이력서</h1>
+    </header>
+    
+    <div class="container">
+        <section class="section1">
+            <h2>MyInfo</h2>
+
+            <div class="imagePace">
+                <img src="내얼굴.jpg" width="80px" height="100px" alt="내 이미지">
+            
+                </div>
+
+            <ul>
+                <li><span>이름:</span> 박지홍</li>
+                <li><span>직업:</span> 학생</li>
+                <li><span>나이:</span> 23세</li>
+                <li><span>주소:</span> 부산 남구 감만동 석포로34<br><br></li>
+                
+            </ul>
+        </section>
+        
+
+        <section class="section2">
+            <h2>About</h2>
+            저는 부산에서 살며 동천고등학교를 졸업하고 경성대학교로 입학했습니다.<br>
+            경성대학교에서 소프트웨어학과 로 전공을 정했으며<br>
+            잘하는것은 그나마 c언어 인거 같습니다. 감자합니다. <br>
+            
+        </section>
+
+        
+        <section class="section3">
+            <h2>Contacts</h2>
+            <ul>
+                <li><strong>전화번호</strong><a href="tel:010-4732-4089">010-4732-4089</a></li>
+                <li><strong>이메일:</strong><a href="naver.com">ggiyoun2@gmail.com</a></li>
+                <li><strong>내 블로그:</strong><a href="parkjihong23/parkjihong23.github.io">@내블로그</a></li>
+            </ul>
+        </section>
+
+
+        <section class="section4">
+            <h2>Skills</h2>
+            <ol>
+                <li>첫번째 할 수 있는것</li>
+                <li>두번째 할 수 있는것</li>
+                <li>세번째 할 수 있는것</li>
+            </ol>
+        </section>
+
+        <section class="section5">
+            <h2>Projects</h2>
+            <h3>1.재밌는 영상</h3>
+            <video width="640" height="360" controls>
+                <source src="https://youtu.be/tcFz6NY3zpc?si=dcSWVisI_QnyEt_F" type="video/mp4">
+            <h3>2.재밌는 영상</h3>
+            <video width="640" height="360" controls>
+                <source src="https://youtu.be/MMZ1frYRot4?si=Ewwm0KsacKigpxbY" type="video/mp4">
+        </section>
+
+    </div>
+
+    <footer>
+        박지홍 이력서 페이지
+    </footer>
+</body>
+</html>
