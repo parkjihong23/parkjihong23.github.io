@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animation...</title>
+    <style>
+        @keyframes rotate {
+            0% {
+                transform: rotate(-90deg);
+            }
+            25% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(90deg);
+            }
+        
+            75% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(-90deg);
+            }
+        }
+
+        .image-container {
+            float : left;
+            margin-left: 10px;
+            padding: 10px;
+           
+            animation: rotate 1s linear infinite; /* 회전 애니메이션 적용 (1초에 1번씩 왼쪽 오른쪽 회전) */
+        }
+
+</style>
+<body>
+    <h2>어지러워요</h2>
+    <hr>
+    <div class="image-container">
+        <img src="spongebob.png" width="100px" height="100px" alt="스폰지밥 이미지">
+    </div>
+</body>
+</html>

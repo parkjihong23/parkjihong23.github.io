@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transition</title>
+    <style>
+        .image-container {
+            float: left;
+            margin-left: 10px;
+            padding: 10px;
+            transition: width 2s ; /* 폭 크기에 대한 변화를 2초 동안 부드럽게 적용 */
+        }
+
+
+        .image-container:hover img {
+            width: 500%; /* 브라우저 폭의 100%로 이미지 크기 늘리기 */
+        }
+    </style>
+</head>
+<body>
+    <h2>마우스를 올려봐요</h2>
+    <hr>
+    <div class="image-container">
+        <img src="spongebob.png" width="100px" height="130px" alt="스폰지밥 이미지">
+    </div>
+</body>
+</html>
