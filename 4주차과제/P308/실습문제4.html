@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("<h3>월화수목금토일</h3><hr>")
+        let ret = prompt("월화수목금토일 중에서 입력하세요");
+        if(ret == null){
+            document.write("취소나 다이얼로그를 닫은경우")
+        }
+        else if (ret == ""){
+            document.write("입력이없습니다")
+        }
+        else {//입력받은 경우
+            if(ret == "월","화","수","목","금" ){
+                document.write(ret+"는(은) 출근")
+            }
+            else {
+                document.write(ret+"는(은) 휴일")
+
+            }
+        }        
+    </script>
+    
+</body>
+</html>

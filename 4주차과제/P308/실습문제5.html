@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("<h3>암호를 입력하라!</h3><hr>")
+        let ret = prompt("암호를 대라")
+        if(ret == null){
+            document.write("취소나 다이얼로그를 닫은경우")
+        }
+        else if (ret == ""){
+            document.write("입력이없습니다")
+        }
+        else {//입력받은 경우
+            if(ret == "you" ){
+                document.write("통과")
+            }
+            else {
+                document.write("암호 틀림")
+
+            }
+        }        
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    document.write("<h3>eval()로 수식 계산</h3><hr>")
+    let ret = prompt("수식 입력");
+    if(ret == null){
+        document.write("취소나 다이얼로그를 닫은경우")
+    }
+    else if (ret == ""){
+        document.write("입력이없습니다")
+    }
+    else {//입력받은 경우
+        document.write(ret+" = "+eval(ret));
+    }
+</script>    
+</body>
+</html>

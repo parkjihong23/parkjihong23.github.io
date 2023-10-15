@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    document.write("<h3>큰 자리수와 낮은자리수 같은지 비교</h3><hr>")
+    let number = parseInt(prompt("숫자 입력"));
+    if(number == null){
+            document.write("취소나 다이얼로그를 닫은경우")
+        }
+        else if (number == ""){
+            document.write("입력이없습니다")
+        }
+        else {//입력받은 경우
+            const printN= number;
+            var numberi= number;
+            var numberj =number;
+            var lastN = number - Math.floor(number/10)*10; //낮은 수 구하는 코드
+            var firstN = 0; 
+            var i= 0;
+            while(numberi!=0){
+                i++;
+                numberi = Math.floor(numberi/10);
+            }
+            var j=1;
+            while(j<i){
+                numberj = Math.floor(numberj/10);
+                firstN= numberj;
+                j++;
+                
+            }
+            
+            //document.write("i="+i,"j="+j,"fn="+firstN,"la="+lastN+"<br>");
+            if(lastN==firstN){
+                document.write(printN+" : 같음");
+            }
+            else{
+                document.write(printN+" : 다름")
+            }
+            
+        }
+
+
+</script>
+</body>
+</html>

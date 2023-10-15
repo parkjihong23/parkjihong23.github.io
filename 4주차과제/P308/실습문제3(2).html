@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>document.write()</title>
+    <style>
+        td {
+            width: 1px;
+        }
+    </style>
+</head>
+<body>
+<script>
+    
+    document.write("<h3>document.write()로 표만들기</h3><hr>");
+        document.write('<table border="1">');
+        document.write('<tr>');
+        document.write('<tr>')
+        document.write('<td>n')
+        for(var j= 0; j<10; j++){ 
+            document.write('<td>'+j)
+        }
+        document.write('</tr>');
+        document.write('<td>n&sup2')
+        for(var j= 0; j<10; j++){ 
+            document.write('<td>'+j*j)
+        }
+        
+                
+    
+
+
+</script>
+</body>
+</html>
