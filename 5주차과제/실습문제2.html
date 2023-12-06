@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>정수 5개 입력을 받아 역순...</title>
+</head>
+<body>
+<h3>정수 5개 입력받아 역순으로 출력</h3>
+<hr>
+<script>
+    let v= new Array(5)//배열 지정
+    for(let i = 0; i<5; i++){
+        let vin = parseInt(prompt("정수입력"));
+        if(vin != null && Number.isInteger(vin)){
+            v[i]= parseInt(vin);
+        }
+        else {
+            v[i]=0;
+        }
+    }
+    document.write("<hr>입력된 배열<br>")
+    for(let i=0; i<5;i++){
+        document.write(v[i]+" ");
+    }
+    document.write("<hr>역순으로 재정렬된 배열<br>")
+    for(let i=4; i>-1;i--){
+        document.write(v[i]+" ");
+    }
+    
+</script>
+</body>
+</html>

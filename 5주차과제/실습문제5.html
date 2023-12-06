@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문자열 배열 다루기</title>
+</head>
+<body>
+    <script>
+    let names = new Array("wonsun", "jaemoonlee","kitae", "gracehwang");
+    
+    //각 이름 출력
+    document.write("이름 : ");
+
+    for(var i=0; i< names.length; i++){
+        document.write(names[i]," ");
+    }
+
+    // 가장 긴이름 
+    var longName= names[0];
+    for(var i=0; i< names.length; i++){
+        //가장 긴이름 찾기 longName  
+        if(longName.length < names[i].length){
+            longName = names[i];
+        }
+    }
+    document.write("<br>가장 긴 이름 : "+longName);
+    
+    
+    //사전에서 가장 먼저 나오는 이름 출력
+    var firstName = names[0].charCodeAt(0); 
+
+    for(var i=1; i< names.length; i++){
+        /*
+        //첫번째 인덱스 찾기 firstName    
+        var firstName2 = names[i].charCodeAt(0);
+        document.write("<br>"+names[i-1]+":"+firstName+"//"+names[i]+":"+firstName2);
+        if(firstName > firstName2) {//비교하는 값이 작으면 넣기
+            var t= new String(names[i-1]);
+            names[i-1] = names[i];
+            names[i] = names[i-1];
+        }
+        */
+
+        names.sort(function(a, b) {
+        return b-a;
+        });
+
+    }
+
+    document.write("<br>");
+    for(var i=0; i< names.length; i++){
+        document.write(names[i]," ");
+    }
+
+    document.write("<br>가장 먼저 나오는 이름 : "+names[0]);
+
+    //증가 순으로 재 정렬 하여 출력
+
+
+
+    
+    </script>
+</body>
+</html>
