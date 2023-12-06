@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>캠블링 게임</title>
+    <style>
+        #numbers {
+            display: flex;
+        }
+        
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 5px;
+            width: 100px;
+        }
+
+        #reset {
+            padding: 0px 0px;
+            margin: 0px;
+            width: 500px;
+            font-size : 18px;
+            display: none;
+            background-color: white;
+            border: none; /* 테두리 제거 */
+        }
+    </style>
+</head>
+<body>
+    <h3>캠블링 게임</h3>
+    <p> 각 숫자를 클릭하면 0에서 2사이의 난수가 바뀝니다. 모두 같은 수가 나오면 승리합니다.
+    </p>
+    <hr>
+    
+    <div id="numbers">
+        <button class="num" onclick="generateNumber(0)">0</button>
+        <button class="num" onclick="generateNumber(1)">0</button>
+        <button class="num" onclick="generateNumber(2)">0</button>
+    </div>
+
+    <button id="reset" onclick="resetGame()">Reset</button>
+    
+    <script>
+        let numbers = [0, 0, 0]; // 초기 숫자 배열
+
+        // 숫자를 업데이트하고 화면에 표시
+        function updateDisplay() {
+            const buttons = document.getElementsByClassName('num');
+            for (let i = 0; i < buttons.length; i++) {
+                buttons[i].innerText = numbers[i];
+            }
+        }
+
+        
+
+        // 랜덤 숫자 생성
+        function generateNumber(index) {
+            numbers[index] = Math.floor(Math.random() * 3); // 0부터 2까지의 랜덤한 숫자
+            updateDisplay(); // 숫자 업데이트 후 표시
+            if(index==2) {checkWin()}; // 승리 확인
+        }
+
+        // 세 숫자가 모두 같은지 확인하여 승리 여부 판단
+       function checkWin() {
+            if (numbers[0] === numbers[1] && numbers[1] === numbers[2]) {
+                document.getElementById("reset").style.display = "block";
+                document.getElementById("reset").innerText = "success(click here to again)"; 
+            } else {
+                document.getElementById("reset").style.display = "block";
+                document.getElementById("reset").innerText = "fail(click here to do again)"; 
+            }
+        }
+
+
+        function resetGame() {
+            numbers = [0, 0, 0]; // 초기 숫자 배열로 재설정
+            updateDisplay(); // 초기 숫자로 화면 업데이트
+        }
+    </script>
+</body>
+</html>
+

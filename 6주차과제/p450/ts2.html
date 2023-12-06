@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>마우스 클릭 연습</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      cursor: pointer;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>마우스 클릭 연습</h1>
+  <hr>
+  <table id="imageTable">
+    <tbody>
+    </tbody>
+  </table>
+
+  <script>
+    // 이미지 URL 배열 (임시 예시 이미지 링크)
+    const imageUrls = [
+      '두더지.jpg'
+    ];
+
+    // 표 생성 함수
+    function createTable() {
+      const table = document.getElementById('imageTable');
+      const tbody = table.getElementsByTagName('tbody')[0];
+
+      for (let i = 0; i < 10; i++) {
+        const row = document.createElement('tr');
+
+        for (let j = 0; j < 10; j++) {
+          const cell = document.createElement('td');
+          cell.setAttribute('data-row', i);
+          cell.setAttribute('data-col', j);
+          cell.addEventListener('click', displayRandomImage);
+          row.appendChild(cell);
+        }
+
+        tbody.appendChild(row);
+      }
+    }
+
+    // 랜덤 이미지 출력 함수
+    function displayRandomImage(event) {
+      const table = document.getElementById('imageTable');
+      const cells = table.getElementsByTagName('td');
+
+      // 기존 이미지 삭제
+      for (let cell of cells) {
+        cell.innerHTML = '';
+      }
+
+      // 랜덤한 셀 선택
+      const randomCell = cells[Math.floor(Math.random() * cells.length)];
+
+      // 이미지 삽입
+      const img = document.createElement('img');
+      img.src = imageUrls[Math.floor(Math.random() * imageUrls.length)];
+      img.style.width = randomCell.offsetWidth + 'px';
+      img.style.height = randomCell.offsetHeight + 'px';
+      randomCell.appendChild(img);
+    }
+
+    // 표 생성
+    createTable();
+  </script>
+</body>
+</html>
+
