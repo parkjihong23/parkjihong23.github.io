@@ -1,10 +1,9 @@
-<https://parkjihong23.github.io/>
 
  <li><h3>3주차 과제</h3>
         <ol type ="A">
             <li>flower</li>
                 <ul>
-                    <li><a href="3주차과제/flower/flower.html">flower</a></li>
+                    <li><a href="parkjihong23.github.io/3주차과제/flower/flower.html">flower</a></li>
                 </ul>
             <li>p202</li>
             <ul>    
