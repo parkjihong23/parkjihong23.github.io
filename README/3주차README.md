@@ -15,62 +15,38 @@ p202
 
 
 
-<li>p207</li>
+p207
  
-                <li><a href="https://parkjihong23.github.io/3주차과제/p207/실습문제1.html">실습문제1</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p207/실습문제2.html">실습문제2</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p207/실습문제3.html">실습문제3</a></li>
+<a href="https://parkjihong23.github.io/3주차과제/p207/실습문제1.html">실습문제1</a>
+<a href="https://parkjihong23.github.io/3주차과제/p207/실습문제2.html">실습문제2</a>
+<a href="https://parkjihong23.github.io/3주차과제/p207/실습문제3.html">실습문제3</a>
 
+p208
+<a href="https://parkjihong23.github.io/3주차과제/p208/실습문제4.html">실습문제4</a>
+<a href="https://parkjihong23.github.io/3주차과제/p208/실습문제5.html">실습문제5</a>
 
-            <li>p208</li>
-            <ul>    
-                <li><a href="https://parkjihong23.github.io/3주차과제/p208/실습문제4.html">실습문제4</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p208/실습문제5.html">실습문제5</a></li>
-            </ul>
-            <li>p209</li>
-            <ul>    
-                <li><a href="https://parkjihong23.github.io/3주차과제/p209/실습문제6.html">실습문제6</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p209/실습문제7.html">실습문제7</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p209/실습문제8.html">실습문제8</a></li>
-            </ul>
-            <li>p249</li>
-            <ul>    
-                <li><a href="https://parkjihong23.github.io/3주차과제/p249/challenge05.html">챌랜지5</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p249/servey4.html">servey4</a></li>
-            </ul>
-            <li>p253</li>
-            <ul>    
-                <li><a href="https://parkjihong23.github.io/3주차과제/p253/실습문제1(1).html">실습문제1(1)</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p253/실습문제1(2).html">실습문제1(2)</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p253/실습문제2.html">실습문제2</a></li>
-            </ul>
-            <li>p254</li>
-            <ul>    
-                <li><a href="https://parkjihong23.github.io/3주차과제/p254/실습문제3.html">실습문제3</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p254/실습문제4(1).html">실습문제4(1)</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p254/실습문제4(2).html">실습문제4(2)</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p254/실습문제5.html">실습문제5</a></li>
-            </ul>
-            <li>p255</li>
-            <ul>    
-                <li><a href="https://parkjihong23.github.io/3주차과제/p255/실습문제6(1).html">실습문제6(1)</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p255/실습문제6(2).html">실습문제6(2)</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p255/실습문제7.html">실습문제7</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p255/실습문제8.html">실습문제8</a></li>
-            </ul>
-            <li>p256</li>
-            <ul>    
-                <li><a href="https://parkjihong23.github.io/3주차과제/p256/실습문제9.html">실습문제9</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p256/실습문제10.html">실습문제10</a></li>
-            </ul>
-        </ol>
-    </li>
+p249
+<a href="https://parkjihong23.github.io/3주차과제/p209/실습문제6.html">실습문제6</a>
+<a href="https://parkjihong23.github.io/3주차과제/p209/실습문제7.html">실습문제7</a>
+<a href="https://parkjihong23.github.io/3주차과제/p209/실습문제8.html">실습문제8</a>
 
+p253
+<a href="https://parkjihong23.github.io/3주차과제/p253/실습문제1(1).html">실습문제1(1)</a>
+<a href="https://parkjihong23.github.io/3주차과제/p253/실습문제1(2).html">실습문제1(2)</a>
+<a href="https://parkjihong23.github.io/3주차과제/p253/실습문제2.html">실습문제2</a>
 
+p254
+<a href="https://parkjihong23.github.io/3주차과제/p254/실습문제3.html">실습문제3</a>
+<a href="https://parkjihong23.github.io/3주차과제/p254/실습문제4(1).html">실습문제4(1)</a>
+<a href="https://parkjihong23.github.io/3주차과제/p254/실습문제4(2).html">실습문제4(2)</a>
+<a href="https://parkjihong23.github.io/3주차과제/p254/실습문제5.html">실습문제5</a>
+    
+p255
+<a href="https://parkjihong23.github.io/3주차과제/p255/실습문제6(1).html">실습문제6(1)</a>
+<a href="https://parkjihong23.github.io/3주차과제/p255/실습문제6(2).html">실습문제6(2)</a>
+<a href="https://parkjihong23.github.io/3주차과제/p255/실습문제7.html">실습문제7</a>
+<a href="https://parkjihong23.github.io/3주차과제/p255/실습문제8.html">실습문제8</a>
 
-
-
-
-
-
- 
+p256
+<a href="https://parkjihong23.github.io/3주차과제/p256/실습문제9.html">실습문제9</a>
+<a href="https://parkjihong23.github.io/3주차과제/p256/실습문제10.html">실습문제10</a>
