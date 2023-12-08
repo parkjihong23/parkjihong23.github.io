@@ -8,8 +8,8 @@
 ![스크린샷(56)](https://github.com/parkjihong23/parkjihong23.github.io/assets/144294724/d25c51ce-9d60-4d01-a69f-34d093744b56)
 
 <li>p202</li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p202/challenge04.html">challenge04</a></li>
-                <li><a href="https://parkjihong23.github.io/3주차과제/p202/servey4.html">survey4</a></li>
+ <a href="https://parkjihong23.github.io/3주차과제/p202/challenge04.html">challenge04</a>
+ <a href="https://parkjihong23.github.io/3주차과제/p202/servey4.html">survey4</a>
 ![스크린샷(57)](https://github.com/parkjihong23/parkjihong23.github.io/assets/144294724/f0464865-d20e-4e1b-94c2-7853368414be)
 ![스크린샷(58)](https://github.com/parkjihong23/parkjihong23.github.io/assets/144294724/2a678f51-4f11-4d2c-b112-038c02eb79d8)
 
