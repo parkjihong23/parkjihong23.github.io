@@ -13,7 +13,6 @@ http://ggiyoun3.dothome.co.kr/%EC%9B%B9%ED%94%84%EA%B3%BC%EC%A0%9Cphp%EC%97%90%E
 http://ggiyoun3.dothome.co.kr/%EC%9B%B9%ED%94%84%EA%B3%BC%EC%A0%9Cphp%EC%97%90%EA%B4%80%ED%95%98%EC%97%AC/problem5/p5.html
 ![스크린샷(107)](https://github.com/parkjihong23/parkjihong23.github.io/assets/144294724/ddd0196c-a8f4-4e19-9f11-6af91f91396a)
 
-<hr> 
 p1
 <http://ggiyoun3.dothome.co.kr/phpProblem/p1.php>
 ![스크린샷(99)](https://github.com/parkjihong23/parkjihong23.github.io/assets/144294724/ea798315-046d-492e-8150-d3e29cd9e984)
