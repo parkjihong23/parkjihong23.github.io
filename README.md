@@ -1,7 +1,6 @@
 https://parkjihong23.github.io/
 
-# parkjihong23.github.io
-* 과제 주소
+# 2주차 과제
   * p104
     * parkjihong23.github.io/2주차과제/p104/challenge02.html
  ![스크린샷(4)](https://github.com/parkjihong23/parkjihong23.github.io/assets/144294724/eba720b1-e9b4-49da-adb4-c35b8f13e09d)
