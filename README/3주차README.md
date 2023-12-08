@@ -7,7 +7,7 @@
 
 ![스크린샷(56)](https://github.com/parkjihong23/parkjihong23.github.io/assets/144294724/d25c51ce-9d60-4d01-a69f-34d093744b56)
 
-<li>p202</li>
+p202
  <a href="https://parkjihong23.github.io/3주차과제/p202/challenge04.html">challenge04</a>
  <a href="https://parkjihong23.github.io/3주차과제/p202/servey4.html">survey4</a>
 ![스크린샷(57)](https://github.com/parkjihong23/parkjihong23.github.io/assets/144294724/f0464865-d20e-4e1b-94c2-7853368414be)
