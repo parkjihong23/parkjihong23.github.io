@@ -1,4 +1,4 @@
-<base href="https://parkjihong23.github.io/">
+<https://parkjihong23.github.io/>
 
  <li><h3>3주차 과제</h3>
         <ol type ="A">
