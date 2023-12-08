@@ -1,7 +1,7 @@
 
 <h3>3주차 과제</h3>
 
-flower
+<h2>flower
 
 <a href="https://parkjihong23.github.io/3주차과제/flower/flower.html">flower</a>
 
