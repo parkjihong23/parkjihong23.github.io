@@ -3,7 +3,7 @@
         <ol type ="A">
             <li>flower</li>
                 <ul>
-                    <li><a href="parkjihong23.github.io/3주차과제/flower/flower.html">flower</a></li>
+                    <li><a href="https://parkjihong23.github.io/3주차과제/flower/flower.html">flower</a></li>
                 </ul>
             <li>p202</li>
             <ul>    
